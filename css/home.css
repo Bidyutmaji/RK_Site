@@ -1,0 +1,152 @@
+/*  Slideshow Image  */
+
+section#content {
+  color: white;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  left: 170px;
+}
+
+img#slide {
+  width: 100%;
+  height: auto;
+}
+
+/*  Featured Courses  */
+
+div.course,
+div.course2,
+div.course3 {
+  width: 340px;
+  height: 400px;
+  background: white;
+  border: 1px solid thin;
+  position: absolute;
+  top: 860px;
+}
+
+div.course {
+  left: 40px;
+}
+
+div.course2 {
+  left: 450px;
+}
+
+div.course3 {
+  left: 830px;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+/*  About Courses  */
+
+section#about {
+  width: 100%;
+  height: 460px;
+  background: rgb(19 158 32);
+  position: absolute;
+  top: 1420px;
+  left: 0px;
+}
+
+div.about {
+  color: white;
+  text-align: center;
+}
+
+div.students,
+div.reviews,
+div.courses,
+div.content {
+  width: 270px;
+  height: 200px;
+  background: black;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 150px;
+}
+
+div.students {
+  left: 30px;
+}
+
+div.reviews {
+  left: 330px;
+}
+
+div.courses {
+  left: 630px;
+}
+
+div.content {
+  left: 930px;
+}
+
+/*  LearnTech Section  */
+
+div#learntech {
+  width: 100%;
+  height: 560px;
+  background: aquamarine;
+}
+
+div.learntechnow,
+div.learntechpodcast,
+div.learntechblog {
+  width: 340px;
+  height: 400px;
+  background: white;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 2050px;
+}
+
+div.learntechnow {
+  left: 40px;
+}
+
+div.learntechpodcast {
+  left: 450px;
+}
+
+div.learntechblog {
+  left: 830px;
+}
+
+img#learntechimg {
+  width: 340px;
+}
+
+h1.h1lt {
+  position: absolute;
+  text-align: center;
+  top: 1920px;
+  margin-left: 460px;
+}
+
+
+
+/*  Footer Section  */
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #25b939;
+  position: absolute;
+  top: 2550px;
+  left: 0px;
+  bottom: 0px;
+}
+
+p#footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 1.4em;
+}

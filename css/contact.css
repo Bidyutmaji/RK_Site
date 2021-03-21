@@ -1,0 +1,33 @@
+form {
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+input {
+  display: inline-block;
+}
+
+.required:after {
+  content: " *";
+  color: #25b939;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #25b939;
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  bottom: 0px;
+}
+
+p#footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 1.4em;
+}

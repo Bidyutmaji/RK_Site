@@ -1,0 +1,45 @@
+.monthly,
+.annual,
+.lifetime {
+  width: 340px;
+  height: 280px;
+  background: whitesmoke;
+  padding-left: 40px;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 220px;
+}
+
+.monthly {
+  left: 70px;
+}
+
+.annual {
+  left: 480px;
+}
+
+.lifetime {
+  left: 890px;
+}
+
+ol {
+  font-size: 1.1em;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #25b939;
+  position: absolute;
+  top: 570px;
+  left: 0px;
+  bottom: 0px;
+}
+
+p#footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 1.4em;
+}
